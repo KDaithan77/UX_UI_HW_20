@@ -1,75 +1,24 @@
-section {
-    min-height: 70vh;
-    background-color: rgba(86,61,124,.15);
-  }
-
-.nav-top {
-    background: rgba(86, 61, 124, 0.15);
-  }
-   
-  .container-fluid {
-    max-width: 1200px;
-  }
-   
-  .list-top {
-    margin-left: 50px;
-  }
-   
-  .list li:not(:last-child) {
-    margin-right: 15px;
-  }
-   
-  .list li a {
-    color: rgba(0, 0, 0, 0.5);
-    transition: color 0.2s;
-  }
-   
-  .list li a:hover {
-    color: rgba(0, 0, 0, 0.7);
-    text-decoration: none;
-  }
-   
-  @media screen and (max-width: 767px) {
-    .list-top {
-      position: absolute;
-      top: 70px;
-      left: 0;
-      right: 0;
-      transform: translateX(-100%);
-      margin-left: 0;
-      padding: 1rem;
-      transition: transform 0.3s;
-    }
-   
-    .nav-top.is-active .list-top {
-      transform: none;
-    }
-     
-    .list-top li {
-      flex-grow: 1;
-    }
-  }
-
 body {
-    margin-top: 30px;
-  }
-   
-  a,
-  a:hover {
-    color: #212529;
-  }
-   
-  a:hover {
-    text-decoration: none;
-  }
-   
-  .block {
-    height: 350px;
-    background: rgba(86,61,124,.15);
-    margin-bottom: 30px;
-  }
-   
-  .label {
-    font-size: .85rem;
-    font-weight: bold;
-  }
+  margin-top: 30px;
+  background-color: rgba(86,61,124,.05);
+}
+
+a,
+a:hover {
+  color: #212529;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.block {
+  height: 350px;
+  background: rgba(86,61,124,.15);
+  margin-bottom: 30px;
+}
+
+.label {
+  font-size: .85rem;
+  font-weight: bold;
+}
